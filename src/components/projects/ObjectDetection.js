@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import objectDetection from '../../images/LEGO_Batman.gif';
 import maskHelmetDetection from '../../images/mask_helmet.gif';
 import batman from '../../images/object_detection_batman.png';
@@ -12,7 +11,12 @@ const Publication = () => {
           <p class="line-1 sub-heading">OBJECT DETECTION</p>
         </p>
         <hr />
-        <img class="gif rounded" src={objectDetection} height="350vh" />
+        <img
+          class="gif rounded"
+          src={objectDetection}
+          height="350vh"
+          alt="object_detection"
+        />
         <br />
         <br />
         <a

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import advance_cv from '../../images/advance_cv.jpeg';
 
 const AdvancedComputerVision = () => {
@@ -10,7 +9,12 @@ const AdvancedComputerVision = () => {
           <p class="line-1 sub-heading">ADVANCED COMPUTER VISION</p>
         </p>
         <hr />
-        <img src={advance_cv} class="rounded" height="400vh" />
+        <img
+          src={advance_cv}
+          class="rounded"
+          height="400vh"
+          alt="advance_computer_vision"
+        />
         <br />
         <br />
         <a

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import deepnet from '../../images/deepnet_white.png';
 
 const Deepnet = () => {
@@ -10,7 +9,13 @@ const Deepnet = () => {
           <p class="line-1 sub-heading">DEEPNET</p>
         </p>
         <hr />
-        <img src={deepnet} class="rounded" width="1000vh" height="220vh" />
+        <img
+          src={deepnet}
+          className="rounded"
+          width="1000vh"
+          height="220vh"
+          alt="deepnet"
+        />
         <br />
         <br />
         <a

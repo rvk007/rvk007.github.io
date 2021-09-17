@@ -1,7 +1,5 @@
 import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
-import Navbar from './Navbar';
-import photo1 from '../images/photo.jpg';
 import photo from '../images/2.png';
 import gmail from '../images/gmail.svg';
 import cv from '../images/cv.png';
@@ -18,6 +16,7 @@ const About = () => {
               height="270vh"
               width="270vh"
               class="rounded-circle"
+              alt="photo"
             />
             <h2 class="mt-3">Rakhee</h2>
             <h3 class="mt-3" style={{ fontSize: '2vh' }}>
@@ -47,6 +46,7 @@ const About = () => {
                   width="25vh"
                   class="rounded icon"
                   style={{ backgroundColor: 'whitesmoke' }}
+                  alt="github"
                 />
               </a>
               <a
@@ -58,10 +58,17 @@ const About = () => {
                   src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/linkedin/linkedin-original.svg"
                   width="25vh"
                   class="ml-4 icon"
+                  alt="linkedin"
                 />
               </a>
               <a href="mailto:rakhee@nyu.edu">
-                <img src={gmail} width="35vh" height="35vh" class="ml-4 icon" />
+                <img
+                  src={gmail}
+                  width="35vh"
+                  height="35vh"
+                  class="ml-4 icon"
+                  alt="gmail"
+                />
               </a>
               <a
                 href="https://twitter.com/vsharma_rakhee"
@@ -72,6 +79,7 @@ const About = () => {
                   src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/twitter/twitter-original.svg"
                   width="25vh"
                   class="ml-4 icon"
+                  alt="twitter"
                 />
               </a>
               <a
@@ -83,6 +91,7 @@ const About = () => {
                   src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"
                   width="25vh"
                   class="ml-4 icon"
+                  alt="instagram"
                 />
               </a>
               <a
@@ -94,6 +103,7 @@ const About = () => {
                   src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/facebook/facebook-original.svg"
                   width="25vh"
                   class="ml-4 icon"
+                  alt="facebook"
                 />
               </a>
               <a
@@ -106,6 +116,7 @@ const About = () => {
                   style={{ backgroundColor: 'whitesmoke' }}
                   width="25vh"
                   class="ml-4 rounded icon"
+                  alt="gmail"
                 />
               </a>
             </div>
@@ -155,6 +166,7 @@ const About = () => {
                         width="20vh"
                         height="20vh"
                         class="rounded icon"
+                        alt="graduation_cap"
                       />
                     </div>
                     <div class="col-11">
@@ -170,6 +182,7 @@ const About = () => {
                         width="20vh"
                         height="20vh"
                         class="rounded icon"
+                        alt="graduation_cap"
                       />
                     </div>
                     <div class="col-11">

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import fai from '../images/fai_logo.jpeg';
 import uqam from '../images/uqam_logo.png';
 import iitpatna from '../images/iitpatna_logo.png';
@@ -26,6 +25,7 @@ const Experience = () => {
                     height="180vh"
                     width="180vh"
                     class="logo rounded-circle"
+                    alt="fai"
                   />
                 </a>
               </div>
@@ -58,6 +58,7 @@ const Experience = () => {
                     height="180vh"
                     width="180vh"
                     class="logo rounded-circle"
+                    alt="uqam"
                   />
                 </a>
               </div>
@@ -91,6 +92,7 @@ const Experience = () => {
                     height="180vh"
                     width="180vh"
                     class="logo rounded-circle"
+                    alt="iit_patna"
                   />
                 </a>
               </div>

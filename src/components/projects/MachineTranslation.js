@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import machine_translation from '../../images/machine_translation.jpeg';
 
 const MachineTranslation = () => {
@@ -10,7 +9,12 @@ const MachineTranslation = () => {
           <p class="line-1 sub-heading">MACHINE TRANSLATION</p>
         </p>
         <hr />
-        <img src={machine_translation} class="rounded" height="450vh" />
+        <img
+          src={machine_translation}
+          class="rounded"
+          height="450vh"
+          alt="machine_translation"
+        />
         <br />
         <br />
         {/* <a

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import depth from '../../images/depth.gif';
 import mask_map from '../../images/mask_map.png';
 import masknet from '../../images/masknet.png';
@@ -17,7 +16,12 @@ const DepthEstimationSegmentation = () => {
           </p>
         </p>
         <hr />
-        <img class="gif" src={depth} height="500vh" />
+        <img
+          class="gif"
+          src={depth}
+          height="500vh"
+          alt="depth_estimation_segmentation"
+        />
         <br />
         <br />
         <a
@@ -42,7 +46,7 @@ const DepthEstimationSegmentation = () => {
         <br />
         <br />
         <p style={{ textAlign: 'center' }}>
-          <img class="gif" src={mask_map} height="310vh" />
+          <img class="gif" src={mask_map} height="310vh" alt="mask_map" />
         </p>
         <br />
         In this project I made a DepthNet Architecture which takes background
@@ -62,7 +66,7 @@ const DepthEstimationSegmentation = () => {
           <h4>MaskNet</h4>
         </a>
         <p style={{ textAlign: 'center' }}>
-          <img class="gif" src={masknet} height="310vh" />
+          <img class="gif" src={masknet} height="310vh" alt="masknet" />
         </p>
         <ul>
           <li>
@@ -101,7 +105,7 @@ const DepthEstimationSegmentation = () => {
         </a>
         <h5>Architecture</h5>
         <p style={{ textAlign: 'center' }}>
-          <img class="gif" src={depthnet} height="450vh" />
+          <img class="gif" src={depthnet} height="450vh" alt="depthnet" />
         </p>
         In the architecture bg denotes the background image and bg_fg denotes
         background-foreground image. DepthNet follows a encoder-decoder model,
@@ -109,7 +113,7 @@ const DepthEstimationSegmentation = () => {
         features by encoding and then convolve up, namely UpSample, decoding the
         image to reach it's initial dimension.
         <p style={{ textAlign: 'center' }}>
-          <img class="gif" src={encoder} height="310vh" />
+          <img class="gif" src={encoder} height="310vh" alt="encoder" />
         </p>
         The model is fully convolutional and includes efficient residual
         up-sampling blocks — decoder — that track high-dimensional regression
@@ -119,7 +123,7 @@ const DepthEstimationSegmentation = () => {
         in learning its upscaling. In the end a final convolution is applied
         that yeilds the final predictions.
         <p style={{ textAlign: 'center' }}>
-          <img class="gif" src={decoder} height="310vh" />
+          <img class="gif" src={decoder} height="310vh" alt="decoder" />
         </p>
       </div>
     </div>

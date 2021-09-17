@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import tanoshi from '../../images/tanoshi.gif';
 import tanoshi_flowchart from '../../images/tanoshi_flowchart.png';
 import image_dataset from '../../images/image_dataset.png';
@@ -18,7 +17,7 @@ const Tanoshi = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img class="gif rounded" src={tanoshi} height="500vh" />
+          <img class="gif rounded" src={tanoshi} height="500vh" alt="tanoshi" />
         </a>
         <br />
         <br />
@@ -101,7 +100,12 @@ const Tanoshi = () => {
           related to each other:
           <br />
           <p style={{ textAlign: 'center' }}>
-            <img class="gif rounded" src={tanoshi_flowchart} height="500vh" />
+            <img
+              class="gif rounded"
+              src={tanoshi_flowchart}
+              height="500vh"
+              alt="tanoshi_flowchart"
+            />
           </p>
         </div>
         <div>
@@ -113,7 +117,12 @@ const Tanoshi = () => {
           dataset and make sure to zip it before uploading else it won't be
           accepted. <br />
           <p style={{ textAlign: 'center' }}>
-            <img class="gif rounded" src={image_dataset} height="350vh" />
+            <img
+              class="gif rounded"
+              src={image_dataset}
+              height="350vh"
+              alt="image_dataset"
+            />
           </p>
         </div>
         <div>
@@ -124,7 +133,12 @@ const Tanoshi = () => {
           kind text classification. Again, use the below specified format to
           create your dataset. The file should be a csv file. <br />
           <p style={{ textAlign: 'center' }}>
-            <img class="gif rounded" src={text_dataset} height="350vh" />
+            <img
+              class="gif rounded"
+              src={text_dataset}
+              height="350vh"
+              alt="text_dataset"
+            />
           </p>
         </div>
       </div>

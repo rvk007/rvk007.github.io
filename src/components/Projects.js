@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
-import project from '../images/projects.jpeg';
 import objectDetection from '../images/LEGO_Batman.gif';
 import depthEstimation from '../images/depth.gif';
 import tanoshi from '../images/tanoshi.gif';
@@ -24,7 +22,12 @@ const Projects = () => {
             class="card shadow mb-3 rounded border border-secondary"
             style={{ width: '30rem' }}
           >
-            <img src={objectDetection} class="card-img-top" height="250vh" />
+            <img
+              src={objectDetection}
+              class="card-img-top"
+              height="250vh"
+              alt="object_detection"
+            />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title btn btn-outline-primary mt-1"
@@ -40,7 +43,12 @@ const Projects = () => {
             class="card shadow mb-3 rounded border border-secondary"
             style={{ width: '30rem' }}
           >
-            <img src={depthEstimation} class="card-img-top" height="250vh" />
+            <img
+              src={depthEstimation}
+              class="card-img-top"
+              height="250vh"
+              alt="depth_estimation"
+            />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title btn btn-outline-primary mt-1"
@@ -56,7 +64,12 @@ const Projects = () => {
             class="card shadow mb-3 rounded border border-secondary"
             style={{ width: '30rem' }}
           >
-            <img src={tanoshi} class="card-img-top" height="250vh" />
+            <img
+              src={tanoshi}
+              class="card-img-top"
+              height="250vh"
+              alt="tanoshi"
+            />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title btn btn-outline-primary mt-1"
@@ -72,7 +85,12 @@ const Projects = () => {
             class="card shadow mb-3 rounded border border-secondary"
             style={{ width: '30rem' }}
           >
-            <img src={advance_cv} class="card-img-top" height="250vh" />
+            <img
+              src={advance_cv}
+              class="card-img-top"
+              height="250vh"
+              alt="advance_cv"
+            />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title btn btn-outline-primary mt-1"
@@ -88,7 +106,12 @@ const Projects = () => {
             class="card shadow mb-3 rounded border border-secondary"
             style={{ width: '30rem' }}
           >
-            <img src={deepnet} class="card-img-top" height="250vh" />
+            <img
+              src={deepnet}
+              class="card-img-top"
+              height="250vh"
+              alt="deepnet"
+            />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title btn btn-outline-primary mt-1"
@@ -108,6 +131,7 @@ const Projects = () => {
               src={machine_translation}
               class="card-img-top"
               height="250vh"
+              alt="machine_translation"
             />
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5

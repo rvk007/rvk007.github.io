@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import paper from '../images/paper.jpg';
 
 const Publication = () => {
@@ -18,7 +17,12 @@ const Publication = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img class="gif rounded" src={paper} height="300vh" />
+                <img
+                  class="gif rounded"
+                  src={paper}
+                  height="300vh"
+                  alt="publication"
+                />
               </a>
             </div>
             <div class="col-6 col-md-9 d-flex align-items-center justify-content-center">
