@@ -1,38 +1,182 @@
-.App {
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+  min-height: 100%;
+}
+body {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: #152238; */
+  background-color: #19273b; /*141e2f */
+}
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid #19273b;
+  font-size: 200%;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter-experience {
+  animation: typewriter-experience 2s steps(44) 0.2s 1 normal both,
+    blinkTextCursor 3s;
+}
+
+.anim-typewriter-projects {
+  animation: typewriter-projects 3s steps(110) 0.2s 1 normal both,
+    blinkTextCursor 4s;
+}
+
+.sub-heading {
+  animation: typewriter-sub-projects 3.5s ease-in-out 0.2s 1 normal both;
+  color: orange;
+}
+
+@keyframes typewriter-experience {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em;
+  }
+}
+@keyframes typewriter-projects {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes typewriter-sub-projects {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30em;
+  }
+}
+@keyframes blinkTextCursor {
+  from,
+  to {
+    border-color: #19273b;
+  }
+  50% {
+    border-color: rgb(24, 129, 199);
+  }
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.nav-hr {
+  border: 0.5px solid orange;
+  margin-top: 0.2em;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 5vmin;
+  width: 5.5vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link::first-letter {
+  color: rgb(24, 129, 199);
+}
+.nav-link:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+  background-color: #141e2f;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  transition: 0.3s;
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  border-radius: 50%;
+  box-shadow: 0 5px 10px 1px rgb(24, 129, 199);
+}
+
+.experience::first-letter {
+  color: rgb(24, 129, 199);
+}
+
+.gif:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 20, 0.12), 0 4px 8px rgba(0, 0, 20, 0.06);
+}
+
+.icon:hover {
+  transition: 0.3s;
+  transform: scale(1.5);
+}
+
+.about {
+  font-family: '';
+  font-weight: 10;
+}
+
+.university:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #141e2f;
+  height: 7.5vh;
+  font-size: 2;
 }
