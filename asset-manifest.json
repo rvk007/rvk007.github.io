@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c890947d.chunk.css",
-    "main.js": "/static/js/main.097d6857.chunk.js",
-    "main.js.map": "/static/js/main.097d6857.chunk.js.map",
+    "main.js": "/static/js/main.7cb5877b.chunk.js",
+    "main.js.map": "/static/js/main.7cb5877b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55f81643.js",
     "runtime-main.js.map": "/static/js/runtime-main.55f81643.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
@@ -33,8 +33,6 @@
     "static/media/masknet.13040d8d.png": "/static/media/masknet.13040d8d.png",
     "static/media/object_detection_batman.6cbf8b5e.png": "/static/media/object_detection_batman.6cbf8b5e.png",
     "static/media/paper.627ccf34.jpg": "/static/media/paper.627ccf34.jpg",
-    "static/media/photo.904f05d0.jpg": "/static/media/photo.904f05d0.jpg",
-    "static/media/projects.568ec8fd.jpeg": "/static/media/projects.568ec8fd.jpeg",
     "static/media/tanoshi.112785e5.gif": "/static/media/tanoshi.112785e5.gif",
     "static/media/tanoshi_flowchart.aea474de.png": "/static/media/tanoshi_flowchart.aea474de.png",
     "static/media/text_dataset.c14104ac.png": "/static/media/text_dataset.c14104ac.png"
@@ -44,6 +42,6 @@
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.5644575e.chunk.js",
     "static/css/main.c890947d.chunk.css",
-    "static/js/main.097d6857.chunk.js"
+    "static/js/main.7cb5877b.chunk.js"
   ]
 }
