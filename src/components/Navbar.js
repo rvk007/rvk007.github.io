@@ -74,7 +74,8 @@ const Navbar = () => {
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="https://drive.google.com/file/d/1m4vhwxlrJQT9SeMgglLd7udAgmfqgbhO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lksi7ATMM5XjsmuaALo3th9Zuplx4rEL/view?usp=sharing"
+                // href="https://drive.google.com/file/d/1m4vhwxlrJQT9SeMgglLd7udAgmfqgbhO/view?usp=sharing"
                 style={{ color: 'whitesmoke ' }}
                 target="_blank"
                 rel="noopener noreferrer"
